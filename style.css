@@ -1,0 +1,72 @@
+html, body{
+    height:100%;
+    margin:0;
+    font-size: larger;
+    line-height: 50px;
+}
+.box{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+h1,h2, h3, h4, p, div{
+    text-align: center;
+    font-weight: bold;
+}
+hr{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.circle{
+    border-radius: 50%;
+}
+.bg{
+    background: linear-gradient(300deg, #e1ff00, #4cffa0, #72efef);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+    background-position-x: 49.3456%;
+    background-position-y: 50%;
+    width:100%;
+    line-height: 50px;
+    padding:50px 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#cursive{
+    font-family: cursive;
+}
+.footer{
+    background: linear-gradient(300deg, #e1ff00, #4cffa0, #72efef);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+    background-position-x: 49.3456%;
+    background-position-y: 50%;
+    width:100%;
+    
+   
+}
+.list{
+    height:150px;
+    width:300px;
+}
+
+.grid_projects{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:0px;
+    
+
+}
+
+.wallpaper{
+    background-image: url("./assets/wallpaper.png");
+    width:100%;
+    padding:30px 10px;
+    
+}
